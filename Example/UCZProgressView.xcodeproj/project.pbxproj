@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075309FB9030106DCBCBE594 /* libPods-UCZProgressViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 026A22D9BEC39C0FCA686852 /* libPods-UCZProgressViewTests.a */; };
 		143CE9CF1A3CB4B000761A4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143CE9CE1A3CB4B000761A4F /* main.m */; };
 		143CE9D21A3CB4B000761A4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 143CE9D11A3CB4B000761A4F /* AppDelegate.m */; };
 		143CE9D51A3CB4B000761A4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143CE9D41A3CB4B000761A4F /* ViewController.m */; };
@@ -18,7 +19,7 @@
 		149C91AD1A3CD74600691A0E /* ThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C91AC1A3CD74600691A0E /* ThumbnailCell.m */; };
 		149C91B01A3CD83000691A0E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C91AF1A3CD83000691A0E /* DetailViewController.m */; };
 		149C91B31A3CE5C300691A0E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C91B21A3CE5C300691A0E /* SettingsViewController.m */; };
-		ECA483A755A00F739CB242F4 /* libPods-UCZProgressViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20431F510DE4AA3F268EF3D9 /* libPods-UCZProgressViewTests.a */; };
+		6125DA79A1154B510B4B2697 /* libPods-UCZProgressView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84697FB9AB89D3876D7400B2 /* libPods-UCZProgressView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026A22D9BEC39C0FCA686852 /* libPods-UCZProgressViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UCZProgressViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143CE9C91A3CB4B000761A4F /* UCZProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCZProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143CE9CD1A3CB4B000761A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		143CE9CE1A3CB4B000761A4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,9 +55,11 @@
 		149C91AF1A3CD83000691A0E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		149C91B11A3CE5C300691A0E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		149C91B21A3CE5C300691A0E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		20431F510DE4AA3F268EF3D9 /* libPods-UCZProgressViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UCZProgressViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48E6B8CBFD75DF02FE151055 /* Pods-UCZProgressViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCZProgressViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCZProgressViewTests/Pods-UCZProgressViewTests.release.xcconfig"; sourceTree = "<group>"; };
-		A059199252E0101EEB4E13E8 /* Pods-UCZProgressViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCZProgressViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCZProgressViewTests/Pods-UCZProgressViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45558A490754748228261ABE /* Pods-UCZProgressViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCZProgressViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCZProgressViewTests/Pods-UCZProgressViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F075A194FC1CE914FA84671 /* Pods-UCZProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCZProgressView.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCZProgressView/Pods-UCZProgressView.release.xcconfig"; sourceTree = "<group>"; };
+		84697FB9AB89D3876D7400B2 /* libPods-UCZProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UCZProgressView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1E20BC8349A56E0DF1C2A3 /* Pods-UCZProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCZProgressView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCZProgressView/Pods-UCZProgressView.debug.xcconfig"; sourceTree = "<group>"; };
+		AB5F92C551A0C9B690D7802E /* Pods-UCZProgressViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCZProgressViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCZProgressViewTests/Pods-UCZProgressViewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6125DA79A1154B510B4B2697 /* libPods-UCZProgressView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA483A755A00F739CB242F4 /* libPods-UCZProgressViewTests.a in Frameworks */,
+				075309FB9030106DCBCBE594 /* libPods-UCZProgressViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +89,8 @@
 				143CE9E51A3CB4B000761A4F /* UCZProgressViewTests */,
 				143CE9F21A3CB5DC00761A4F /* Lib */,
 				143CE9CA1A3CB4B000761A4F /* Products */,
-				FB530EB6ED1500AA56BFC8CC /* Pods */,
-				CB688E10416638707DADDF59 /* Frameworks */,
+				5C57EB13E751534CA9053956 /* Pods */,
+				B4F97C5A743ED876ABF12813 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,21 +160,24 @@
 			path = ../Lib;
 			sourceTree = "<group>";
 		};
-		CB688E10416638707DADDF59 /* Frameworks */ = {
+		5C57EB13E751534CA9053956 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20431F510DE4AA3F268EF3D9 /* libPods-UCZProgressViewTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FB530EB6ED1500AA56BFC8CC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A059199252E0101EEB4E13E8 /* Pods-UCZProgressViewTests.debug.xcconfig */,
-				48E6B8CBFD75DF02FE151055 /* Pods-UCZProgressViewTests.release.xcconfig */,
+				9E1E20BC8349A56E0DF1C2A3 /* Pods-UCZProgressView.debug.xcconfig */,
+				4F075A194FC1CE914FA84671 /* Pods-UCZProgressView.release.xcconfig */,
+				45558A490754748228261ABE /* Pods-UCZProgressViewTests.debug.xcconfig */,
+				AB5F92C551A0C9B690D7802E /* Pods-UCZProgressViewTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4F97C5A743ED876ABF12813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84697FB9AB89D3876D7400B2 /* libPods-UCZProgressView.a */,
+				026A22D9BEC39C0FCA686852 /* libPods-UCZProgressViewTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143CE9EC1A3CB4B000761A4F /* Build configuration list for PBXNativeTarget "UCZProgressView" */;
 			buildPhases = (
+				C0E1492981C6BF834CCC36E3 /* [CP] Check Pods Manifest.lock */,
 				143CE9C51A3CB4B000761A4F /* Sources */,
 				143CE9C61A3CB4B000761A4F /* Frameworks */,
 				143CE9C71A3CB4B000761A4F /* Resources */,
+				927873D28F70B059119C16B8 /* [CP] Embed Pods Frameworks */,
+				8ACB8715E328F8BCBEEB3B96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,11 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143CE9EF1A3CB4B000761A4F /* Build configuration list for PBXNativeTarget "UCZProgressViewTests" */;
 			buildPhases = (
-				AFD8A600B38640F7B2D05B81 /* Check Pods Manifest.lock */,
+				4442E8FCF895F35B9A27C242 /* [CP] Check Pods Manifest.lock */,
 				143CE9DE1A3CB4B000761A4F /* Sources */,
 				143CE9DF1A3CB4B000761A4F /* Frameworks */,
 				143CE9E01A3CB4B000761A4F /* Resources */,
-				9AD30F17127E740B2B283780 /* Copy Pods Resources */,
+				AACE0EC0045B2198F710FB5A /* [CP] Embed Pods Frameworks */,
+				81F138A353BD3E3FBA755B0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,14 +282,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9AD30F17127E740B2B283780 /* Copy Pods Resources */ = {
+		4442E8FCF895F35B9A27C242 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UCZProgressViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81F138A353BD3E3FBA755B0F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,19 +315,67 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCZProgressViewTests/Pods-UCZProgressViewTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AFD8A600B38640F7B2D05B81 /* Check Pods Manifest.lock */ = {
+		8ACB8715E328F8BCBEEB3B96 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCZProgressView/Pods-UCZProgressView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927873D28F70B059119C16B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCZProgressView/Pods-UCZProgressView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AACE0EC0045B2198F710FB5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCZProgressViewTests/Pods-UCZProgressViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E1492981C6BF834CCC36E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UCZProgressView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -389,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -424,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -433,6 +511,7 @@
 		};
 		143CE9ED1A3CB4B000761A4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1E20BC8349A56E0DF1C2A3 /* Pods-UCZProgressView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UCZProgressView/Info.plist;
@@ -443,6 +522,7 @@
 		};
 		143CE9EE1A3CB4B000761A4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F075A194FC1CE914FA84671 /* Pods-UCZProgressView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UCZProgressView/Info.plist;
@@ -453,7 +533,7 @@
 		};
 		143CE9F01A3CB4B000761A4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A059199252E0101EEB4E13E8 /* Pods-UCZProgressViewTests.debug.xcconfig */;
+			baseConfigurationReference = 45558A490754748228261ABE /* Pods-UCZProgressViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -473,7 +553,7 @@
 		};
 		143CE9F11A3CB4B000761A4F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48E6B8CBFD75DF02FE151055 /* Pods-UCZProgressViewTests.release.xcconfig */;
+			baseConfigurationReference = AB5F92C551A0C9B690D7802E /* Pods-UCZProgressViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

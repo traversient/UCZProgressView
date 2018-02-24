@@ -86,7 +86,12 @@
     [self.backgroundLayer removeFromSuperlayer];
     [self.textLabel removeFromSuperview];
     [backgroundView.layer addSublayer:self.backgroundLayer];
-    [backgroundView addSubview:self.textLabel];
+    if (self.blurEffect) {
+        [((UIVisualEffectView *)backgroundView).contentView addSubview:self.textLabel];
+    }
+    else{
+        [backgroundView addSubview:self.textLabel];
+    }
     
     [self addSubview:backgroundView];
     
